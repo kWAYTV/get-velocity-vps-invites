@@ -1,4 +1,4 @@
-# Get VPS Invites (Velocity)
+# Get VPS Invites (for Velocity)
  Simple script to download the invites of every vps, resetting the file so you don't need to and getting just one file ready to be checked. (Made for Velocity)
 # Set Up
  Just edit the vps list and run!
