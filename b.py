@@ -1,7 +1,17 @@
+# Auto import installer
+import os
+try:
+    import os, time, colorama, pystyle, paramiko, shutil
+    from pystyle import Colors, Colorate, Center
+    print("\nImports successful!")
+except:
+    print("\nImports failed! Trying to install...")
+    z = "python -m pip install "; os.system('%sos-sys' % (z)); os.system('%stime' % (z)); os.system('%scolorama' % (z)); os.system('%spystyle' % (z)); os.system('%sparamiko' % (z)); os.system('%spytest-shutil' % (z));
+    print("\nTesting now!")
+
 # Imports
-import os, paramiko, time, pystyle, dhooks, json, glob, shutil
+import os, paramiko, time, pystyle, shutil
 from pystyle import Colors, Colorate, Center
-from dhooks import Webhook
 
 # Variables
 scriptDir = os.getcwd() # Getting the script directory
