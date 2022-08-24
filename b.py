@@ -7,7 +7,6 @@ from dhooks import Webhook
 scriptDir = os.getcwd() # Getting the script directory
 clear = lambda: os.system("cls" if os.name in ("nt", "dos") else "clear") # Don't touch this
 count = 0 # Don't touch this
-checkerInvs = "" # Input here the invites.txt from your invite checker (Ex: "C:/Bot/nitro/checker/invites.txt")
 clear()
 
 # List of your vps, you can add and remove lines with the same format, watch out that last line doesn't have a (,) at the end.
